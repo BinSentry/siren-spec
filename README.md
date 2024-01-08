@@ -144,6 +144,23 @@ It's important to note the distinction between link relations and classes.  Link
 
 Another distinction is the difference between sub-entities and links.  Sub-entities exist to communicate a relationship between entities, in context.  Links are primarily navigational and communicate ways clients can navigate outside the entity graph.
 
+---
+##### BinSentry Decision | When to use Sub-Entities vs Links?
+Sub-Entities are used to express an ownership relationship.
+```
+Ex:
+A Bin owns BinLevels
+So a Bin would have BinLevels as a Sub-Entity
+```
+
+Links are used for all other relationships between nodes in the graph.
+```
+Ex:
+A BinLevel is related to the device it was created by.
+So a BinLevel would have a Link to the device.
+```
+---
+
 ## Links
 
 Links represent navigational transitions.  In JSON Siren, links are represented as an array inside the entity, such as `{ "links": [{ "rel": [ "self" ], "href": "http://api.x.io/orders/42"}] }`
