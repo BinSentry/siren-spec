@@ -1,5 +1,11 @@
 # Siren: a hypermedia specification for representing entities
 
+This is a BinSentry annotated version of the original [Siren Specification](https://github.com/kevinswiber/siren)
+The use of this document is to list out our decisions on:
+- Decision on ambiguities in the original specification
+- Any extentions to the specification for our use cases
+
+
 [![DOI](https://zenodo.org/badge/4917422.svg)](https://zenodo.org/badge/latestdoi/4917422)
 
 Your input is appreciated.  Feel free to file a GitHub Issue, a Pull Request, or contact us.  Thank you!
