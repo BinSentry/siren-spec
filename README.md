@@ -5,6 +5,13 @@ The use of this document is to list out our decisions on:
 - Decision on ambiguities in the original specification
 - Any extentions to the specification for our use cases
 
+---
+##### BinSentry Annotation formatting
+
+All BinSentry annotations should be made in an obvious way, don't just edit the specification. The formatting of this block should be followed.
+
+---
+
 
 [![DOI](https://zenodo.org/badge/4917422.svg)](https://zenodo.org/badge/latestdoi/4917422)
 
